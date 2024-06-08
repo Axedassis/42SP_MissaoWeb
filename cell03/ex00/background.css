@@ -1,0 +1,12 @@
+body{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 49vw;
+    align-items: center;
+}
+
+#btn{
+    font-size: 1.4rem;
+    padding: 5px 15px;
+}

@@ -1,0 +1,47 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.list_wrapper{
+    width: 500px;
+    margin: 0 auto;
+}
+
+.list_wrapper button{
+    width: 100%;
+    display: block;
+    border-radius: 0px;
+    border: 1px solid black;
+    font-size: 1.2rem;    
+    font-family: sans-serif;
+    background: none;
+    cursor: pointer;
+    padding: 5px 0;
+}
+
+.list_wrapper button:hover{
+    transition: linear 0.2s;
+    background: rgba(0, 0, 0, 0.1);
+}
+
+#ft_list{
+    border: 1px solid black;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    flex-direction: column-reverse;
+}
+
+.taskItem{
+    font-size: 1.2rem;
+    font-family: sans-serif;
+    padding: 10px 0px 10px 5px;
+    text-transform: capitalize;
+    border: 1px solid black;
+    margin: 2px 2px 10px 2px;
+}

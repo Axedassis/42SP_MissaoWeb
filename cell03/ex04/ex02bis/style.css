@@ -1,0 +1,12 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 38vh;
+}
+
+.calc {
+    display: flex;
+    flex-direction: row;
+    padding: 40px 10px;
+    border-radius: 5px;
+}

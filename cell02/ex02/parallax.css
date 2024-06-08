@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+}
+
+.module{
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 0 20px;
+    color: white;
+    font-size: 5.0rem;
+
+}
+
+.module.content{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.parallax{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow: hidden;
+    background-position: 50% 50%;
+}
+
+.module.parallax.parallax01{
+    background-image: url(./dog.png);
+}
+
+.module.parallax.parallax02{
+    background-image: url(./dog2.png);
+}
+

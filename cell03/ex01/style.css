@@ -1,0 +1,16 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ballon{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    background-color: red;
+}
